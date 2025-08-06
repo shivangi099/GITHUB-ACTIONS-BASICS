@@ -4,5 +4,5 @@ jobs:
   say-hello:
    runs-on: ubuntu-latest
    steps:
-      name: print hello
-      run: echo "hello from github actions"
+      - name: print hello
+        run: echo "hello from github actions"
